@@ -16,7 +16,16 @@
 
 
             var p4 = new Problema4();
-            Console.WriteLine(p4.CalcularPromedio(10, null, 8)); 
+            Console.WriteLine(p4.CalcularPromedio(10, null, 8));
+
+
+            var p5 = new Problema5();
+
+            Sale s1 = new RetailSale(100);
+            Sale s2 = new WholesaleSale(100);
+
+            Console.WriteLine(p5.ObtenerImporteFinal(s1));
+            Console.WriteLine(p5.ObtenerImporteFinal(s2)); 
 
 
         }
