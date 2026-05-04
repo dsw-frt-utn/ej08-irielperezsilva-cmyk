@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(ProductHelper.ObtenerEtiquetaProducto (1, "Producto", 100));
         }
     }
 }
