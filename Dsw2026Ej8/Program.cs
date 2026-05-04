@@ -12,7 +12,12 @@
             var prod = new Product("Original");
             var p3 = new Problema3();
 
-            Console.WriteLine(p3.CompararCopias(5, prod)); 
+            Console.WriteLine(p3.CompararCopias(5, prod));
+
+
+            var p4 = new Problema4();
+            Console.WriteLine(p4.CalcularPromedio(10, null, 8)); 
+
 
         }
     }
