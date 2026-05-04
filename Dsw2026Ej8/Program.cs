@@ -25,7 +25,15 @@
             Sale s2 = new WholesaleSale(100);
 
             Console.WriteLine(p5.ObtenerImporteFinal(s1));
-            Console.WriteLine(p5.ObtenerImporteFinal(s2)); 
+            Console.WriteLine(p5.ObtenerImporteFinal(s2));
+
+
+            var p6 = new Problema6();
+
+            Console.WriteLine(p6.NormalizarCodigoProducto(" ab 123 x"));
+            Console.WriteLine(p6.NormalizarCodigoProducto(null)); 
+
+
 
 
         }
